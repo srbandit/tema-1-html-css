@@ -1,0 +1,76 @@
+* {
+  max-width: 1200px;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.pagina {
+  display: flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+  .header {
+    background: black;
+
+    .superior {
+      background: rgb(47, 73, 129);
+      display: flex;
+      flex-flow: row nowrap;
+      .logo {
+        background: tomato;
+        flex: 1 1 auto;
+      }
+      .nav {
+        background: tomato;
+        flex: 5 1 auto;
+      }
+      .social {
+        background: tomato;
+        flex: 1 1 auto;
+      }
+    }
+
+    .naranja {
+      background: orange;
+      .banner {
+        background: yellow;
+      }
+    }
+  }
+
+  .section {
+    background: black;
+    display: flex;
+
+    .articulos {
+      background: rgb(119, 87, 148);
+      display: flex;
+      flex-flow: row wrap;
+      flex: 6 1 auto;
+      .article {
+        background: rgb(20, 154, 238);
+        flex: 1 1 40%;
+      }
+      .navegacion {
+        background: lightskyblue;
+        flex: 1 1 100%;
+      }
+    }
+    .aside {
+      background: tomato;
+      flex: 1 1 auto;
+      .publicidad {
+        background: yellow;
+      }
+    }
+  }
+
+  .footer {
+    background: black;
+
+    .pie {
+      background: rgb(248, 248, 159);
+    }
+  }
+}
+
