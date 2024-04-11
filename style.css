@@ -74,3 +74,12 @@
   }
 }
 
+/* Media size for tablet */
+@media all and (max-width: 800px) {
+  .section {
+    flex-direction: column;
+  }
+  #menu {
+    flex-direction: column;
+  }
+}
