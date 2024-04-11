@@ -83,3 +83,10 @@
     flex-direction: column;
   }
 }
+
+/* Media size for phone */
+@media all and (max-width: 600px){
+  #articles{
+    flex-direction: column;
+  }
+}
